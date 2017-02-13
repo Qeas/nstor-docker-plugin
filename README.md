@@ -4,7 +4,7 @@ Nexenta Plugin for Docker Volumes
 Usage:
 1) Clone this repository
 ```
-git clone https://github.com/qeas/nstor-docker-plugin
+git clone https://github.com/qeas/nstor-docker-plugin && cd nstor-docker-plugin
 ```
 2) Copy nvd.json.example to /etc/nvd/nvd.json and change values according to your NexentaStor setup
 ```
