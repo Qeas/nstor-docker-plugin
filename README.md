@@ -17,8 +17,8 @@ docker plugin install alexeykhodos/nexentastor-nfs-plugin
 ```
 4) Use plugin to create docker volumes
 ```
-docker volume create -d nvd --name=testvolume
-docker run -v testvolume:/Data --volume-driver=nvd -i -t ubuntu /bin/bash
+docker volume create -d alexeykhodos/nexentastor-nfs-plugin --name=testvolume
+docker run -v testvolume:/Data -it ubuntu /bin/bash
 ```
 
 NOTE:
