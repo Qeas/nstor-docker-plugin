@@ -1,7 +1,7 @@
 Nexenta Plugin for Docker Volumes
 ======================================
 
-Usage:
+## Usage
 1) Clone this repository
 ```
 git clone https://github.com/qeas/nstor-docker-plugin && cd nstor-docker-plugin
